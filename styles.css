@@ -1,0 +1,60 @@
+:root{
+    --primary: #327559;
+    --secondary: #54a885;
+    --block: #f7cfd5;
+    --link: #c46071;
+}
+
+/* reset */
+li{
+    list-style-type: none;
+}
+body, p, a, ul, li{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* base */
+@font-face{
+    font-family: 'Bellefair Regular';
+    src: url('assets/fonts/Bellefair-Regular.ttf');
+}
+body{
+    font-family: 'Bellefair Regular';;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+}
+
+.profile-photo img, .projects img, .skills img, footer img{
+    width: 100%;
+}
+.divider img{
+    width: 300%;
+}
+h1, h2, h3, i{
+    color: var(--primary);
+}
+h4, p, li{
+    color: var(--secondary);
+}
+a{
+    color: var(--link);
+}
+nav h1{
+    border-bottom: 4px double var(--block);
+}
+footer{
+    background-color: var(--block);
+}
+#about a{
+    background-color: var(--block);
+    border-radius: 10px;
+}
+.skills ul{
+    border-left: 4px double var(--block);
+    border-right: 4px double var(--block);
+}
