@@ -28,10 +28,6 @@ body{
     grid-template-columns: repeat(8, 1fr);
     gap: 10px;
 }
-
-.profile-photo img, .projects img, .skills img, footer img{
-    width: 100%;
-}
 .divider img{
     width: 300%;
 }
@@ -54,7 +50,122 @@ footer{
     background-color: var(--block);
     border-radius: 10px;
 }
-.skills ul{
-    border-left: 4px double var(--block);
-    border-right: 4px double var(--block);
+
+/* layout */
+nav h1{
+    grid-column: 1/4;
+    margin-left: 25px;  
+    padding-bottom: 5px;
+}
+nav ul{
+    display: flex;
+    grid-column: 5/9;
+    justify-self: flex-end;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+nav li{
+    padding-right: 25px;
+}
+
+.about-me{
+    grid-column: 1/5;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.about-me p{
+    padding-bottom: 30px;
+}
+.about-me a{
+    padding: 3px 5px;
+}
+
+.profile-photo{
+    grid-column: 6/9;
+}
+.profile-photo img{
+    width: 80%;
+    padding-top: 25px;
+}
+
+#projects{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#projects h3{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.projects{
+    text-align: center;
+}
+.projects a{
+    grid-column: span 4;
+}
+.projects img{
+    width: 80%;
+}
+
+.divider{
+    grid-column: 3/7;
+    padding-bottom: 50px;
+}
+.divider img{
+    width: 100%;
+}
+
+#skills{
+    padding-bottom: 50px;
+}
+#skills h3{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.skills{
+    justify-items: center;
+}
+.skills img{
+    width: 70%;
+    grid-column: span 2;
+}
+.skills img:nth-child(5), .skills img:nth-child(6), .skills img:nth-child(7){
+    grid-row: 2;
+    margin-top: 20px;
+    margin-left: 8.5em;
+}
+
+#contact{
+    padding-bottom: 120px;    
+}
+#contact h3{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.contact{
+    grid-column: 3/8;
+}
+.contact li{
+    padding-bottom: 30px;
+    
+}
+.contact p{
+    grid-column: 9;
+    font-size: xx-large;
+    padding-bottom: 40px;
+}
+.contact i{
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+footer{
+    background-image: url(assets/circle.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: grid;
+    justify-content: center;
+}
+footer h3{
+    margin-top: 36px;
 }
