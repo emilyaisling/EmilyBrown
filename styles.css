@@ -34,7 +34,7 @@ body{
 h1, h2, h3, i{
     color: var(--primary);
 }
-h4, p, li{
+h4, h5, p, li{
     color: var(--secondary);
 }
 a{
@@ -92,8 +92,10 @@ nav li{
     padding-top: 50px;
     padding-bottom: 50px;
 }
-#projects h3{
+#projects h3, #projects h5{
     text-align: center;
+}
+#projects h5{
     padding-bottom: 20px;
 }
 .projects{
