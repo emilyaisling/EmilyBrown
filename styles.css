@@ -171,3 +171,103 @@ footer{
 footer h3{
     margin-top: 36px;
 }
+
+#work{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+.work .scrapbook, .work .tutor, .work .weather, .work .music{
+    grid-column: span 8;
+}
+.work img{
+    width: 80%;
+    padding-bottom: 20px;
+}
+.work .tech{
+    padding-bottom: 20px;
+    display: flex;
+}
+.work .tech li{
+    color: var(--link);
+    padding-right: 15px;
+    font-weight: bolder;
+}
+.work p{
+    padding-bottom: 20px;
+}
+.work .links{
+    padding-bottom: 50px;
+}
+
+/* tablet */
+@media screen and (min-width: 620px){
+    #about{
+        padding-left: 25px;
+    }
+    nav a, .about-me a{
+        font-size: 1em;
+    }
+    .about-me a{
+        padding: 5px 7px;
+    }
+    .contact{
+        font-size: 1.1em;
+    }
+    #projects h3, #skills h3, #contact h3{
+        font-size: 1.5em;
+    }
+    #projects h5{
+        font-size: 0.9em;
+    }
+    .projects img{
+        width: 70%;
+    }
+    h1{
+        font-size: 2em;
+    }
+    h2{
+        font-size: 1.8em;
+    }
+    p{
+        font-size: 1.1em;
+    }
+    #skills h3, #projects h5, #contact h3{
+        padding-bottom: 30px;
+    }
+    .skills img:nth-child(5), .skills img:nth-child(6), .skills img:nth-child(7){
+        margin-left: 10em;
+    }
+    #work{
+        padding-left: 35px;
+    }
+    #work h3{
+        font-size: 1.5em;
+    }
+    .work img{
+        width: 60%;
+    }
+    .weather img{
+        width: 50%;
+    }
+    .work p{
+        padding-right: 35px;
+    }
+
+}
+
+@media screen and (min-width: 800px){
+    .skills img:nth-child(5), .skills img:nth-child(6), .skills img:nth-child(7){
+        margin-left: 13em;
+    }
+}
+
+/* laptop */
+@media screen and (min-width: 960px){
+
+}
+
+/* desktop */
+@media screen and (min-width: 1200px){
+
+}
