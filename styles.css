@@ -133,7 +133,7 @@ nav li{
 .skills img:nth-child(5), .skills img:nth-child(6), .skills img:nth-child(7){
     grid-row: 2;
     margin-top: 20px;
-    margin-left: 5.5em;
+    margin-left: 5em;
 }
 
 #contact{
@@ -170,7 +170,7 @@ footer{
 }
 footer h3{
     margin-top: 36px;
-    font-size: smaller;
+    font-size: 0.7em;
 }
 
 #work{
