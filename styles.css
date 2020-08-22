@@ -185,6 +185,7 @@ footer h3{
     padding-bottom: 20px;
 }
 .work .tech{
+    font-size: smaller;
     padding-bottom: 20px;
     display: flex;
 }
@@ -375,6 +376,7 @@ footer h3{
     .work .tech{
         padding-bottom: 30px;
         display: flex;
+        font-size: 1em;
     }
     .work .tech li{
         padding-right: 20px;
